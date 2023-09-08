@@ -42,7 +42,7 @@ body{
 .item-title{
   position: absolute;
   top:0;
-  right: 20px;
+  right: 00px;
  width:40% ;
   padding: 6px 90px;
   border-left: 2px solid #000;
@@ -52,16 +52,19 @@ body{
 
 #title-un {
   background-color: #D59898;
+  text-align:center;
 
 } 
 
 #title-deux{
   background-color: #C14543;
   color: #ffffff ;
+  text-align:center; 
 }
 
 #title-trois{
   background-color: #E5D198;
+  text-align:center;
 }
 
 /* Simple Responsive Framework. */
