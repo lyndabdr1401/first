@@ -23,15 +23,15 @@ $(function () {
 (function (global) {
   var dc = {};
 
-  var homeHtml = "snippets/home-snippet.html";
+  var homeHtml = "week5/snippets/home-snippet.html";
   var allCategoriesUrl =
     "https://coursera-jhu-default-rtdb.firebaseio.com/categories.json";
-  var categoriesTitleHtml = "snippets/categories-title-snippet.html";
-  var categoryHtml = "snippets/category-snippet.html";
+  var categoriesTitleHtml = "week5/snippets/categories-title-snippet.html";
+  var categoryHtml = "week5/snippets/category-snippet.html";
   var menuItemsUrl =
     "https://coursera-jhu-default-rtdb.firebaseio.com/menu_items/";
-  var menuItemsTitleHtml = "snippets/menu-items-title.html";
-  var menuItemHtml = "snippets/menu-item.html";
+  var menuItemsTitleHtml = "week5/snippets/menu-items-title.html";
+  var menuItemHtml = "week5/snippets/menu-item.html";
 
   // Convenience function for inserting innerHTML for 'select'
   var insertHtml = function (selector, html) {
